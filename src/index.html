@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+</head>
+<body>
+    <header>
+        <h1>Leaderboard</h1>
+    </header>
+    <main>
+        <!-- Recent score section -->
+        <section id="score-data-section">
+            <div id="score-data-header">
+                <h2>Recent scores</h2>
+                <button id="refresh-btn">Refresh</button>
+            </div>
+            <ul id="score-list">
+                <li>Ali: 90</li>
+                <li>Ahmad: 70</li>
+                <li>Urwa: 99</li>
+                <li>Jaffar: 100</li>
+                <li>Konain: 101</li>
+            </ul>
+        </section>
+
+        <!-- Adding scores section -->
+        <section id="add-score-section">
+            <div>
+                <h2>Add your score</h2>
+                <form id="score-form" action="submit">
+                    <input id="form-name" type="text" placeholder="Your name">
+                    <input id="form-score" type="text" placeholder="Your score">
+                    <button id="form-submit-btn" type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
