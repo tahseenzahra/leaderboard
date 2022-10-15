@@ -5,7 +5,7 @@ const ScoreList = document.getElementById('score-list');
 const ShowScoreList = (elements) => {
   const div = `<li class="list-section">
                         <h4 class="list-name">${elements.user} &nbsp : <span> ${elements.score} </span></h4>
-                </li>`;
+                </li><hr>`;
   const ListElements = ScoreList.innerHTML + div;
   ScoreList.innerHTML = ListElements;
 };
