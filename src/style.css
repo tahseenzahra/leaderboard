@@ -38,7 +38,7 @@ main {
   font-size: 0.8rem;
   transition: all;
   transition-duration: 0.35s;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 #score-data-header {
