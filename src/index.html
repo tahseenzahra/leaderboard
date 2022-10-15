@@ -14,15 +14,9 @@
         <section id="score-data-section">
             <div id="score-data-header">
                 <h2>Recent scores</h2>
-                <button id="refresh-btn">Refresh</button>
+                <button id="refresh-btn" class="btn">Refresh</button>
             </div>
-            <ul id="score-list">
-                <li>Ali: 90</li>
-                <li>Ahmad: 70</li>
-                <li>Urwa: 99</li>
-                <li>Jaffar: 100</li>
-                <li>Konain: 101</li>
-            </ul>
+            <ul id="score-list"></ul>
         </section>
 
         <!-- Adding scores section -->
@@ -30,9 +24,9 @@
             <div>
                 <h2>Add your score</h2>
                 <form id="score-form" action="submit">
-                    <input id="form-name" type="text" placeholder="Your name">
-                    <input id="form-score" type="text" placeholder="Your score">
-                    <button id="form-submit-btn" type="submit">Submit</button>
+                    <input id="form-name" type="text" placeholder="Your name" required>
+                    <input id="form-score" type="text" placeholder="Your score" required>
+                    <button id="form-submit-btn" type="submit" class="btn">Submit</button>
                 </form>
             </div>
         </section>
