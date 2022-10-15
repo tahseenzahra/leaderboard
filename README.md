@@ -7,6 +7,7 @@ Leader board contains the score of different people.
 - Web Development
 - HTML5, CSS3, JS
 - Webpack
+- API
 
 ## Live Demo
 
@@ -20,7 +21,7 @@ Fork / Clone the repository to use it on your local system.
 
 View the file through the source code.
 
-## Authors
+## Author
 
 👤 **Tahseen Zahra**
 
